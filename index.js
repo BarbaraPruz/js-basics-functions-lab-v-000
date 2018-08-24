@@ -13,5 +13,8 @@ function distanceFromHqInFeet(location) {
 }
 
 function distanceTravelledInFeet(point1, point2) {
+  console.log("p1=" + point1 + " p2=" + point2);
+  console.log("dinb=" + distanceInBlocks(point1,point2));
+  console.log("btf=" + blocksToFeet(distanceInBlocks(point1,point2)));
     blocksToFeet(distanceInBlocks(point1,point2));
 }
