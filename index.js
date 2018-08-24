@@ -1,8 +1,17 @@
 // Code your solution in this file!
+function distanceInBlocks(point1, point2) {
+  return Math.abs(point1 - point2);
+}
+function blocksToFeet(blocks) {
+  return blocks * 264;
+}
 function distanceFromHqInBlocks(location) {
-  return Math.abs(location - 42);
+  return distanceInBlocks(location, 42);
+}
+function distanceFromHqInFeet(location) {
+  return blocksToFeet(distanceFromHqInBlocks(location));
 }
 
-function distanceFromHqInFeet(location) {
-  return distanceFromHqInBlocks(location) * 264;
+function distanceTravelledInFeet(point1, point2) {
+    blocksToFeed(distanceInBlocks(point1,point2));
 }
