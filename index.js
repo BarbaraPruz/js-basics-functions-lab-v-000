@@ -13,5 +13,5 @@ function distanceFromHqInFeet(location) {
 }
 
 function distanceTravelledInFeet(point1, point2) {
-    blocksToFeetd(distanceInBlocks(point1,point2));
+    blocksToFeet(distanceInBlocks(point1,point2));
 }
